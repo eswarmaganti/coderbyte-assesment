@@ -16,7 +16,7 @@
 }
 .app-dashboard-layout {
   display: grid;
-  grid-template-columns: 12% 88%;
+  grid-template-columns: 14% 86%;
   grid-gap: 20px;
 }
 
@@ -37,4 +37,15 @@ li a {
 }
 li a:hover {
   color: #1f2133;
+}
+
+@media only screen and (max-width: 500px) {
+  .list-group-item a span {
+    display: none;
+  }
+}
+@media screen and (min-width: 501px) and (max-width: 880px) {
+  .list-group-item a i {
+    display: none;
+  }
 }

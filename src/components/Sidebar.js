@@ -13,7 +13,7 @@ const Sidebar = () => {
         }
       >
         <Link to="/dashboard">
-          <i class="bi bi-house-door-fill "></i> Dashboard
+          <i class="bi bi-house-door-fill "></i> <span>Dashboard</span>
         </Link>
       </li>
       <li
@@ -25,12 +25,24 @@ const Sidebar = () => {
         }
       >
         <Link to="/profile">
-          <i class="bi bi-person-fill "></i> Profile
+          <i class="bi bi-person-fill "></i> <span>Profile</span>
+        </Link>
+      </li>
+      <li
+        className="list-group-item mb-2"
+        className={
+          location.pathname === "/settings"
+            ? "list-group-item mb-2 bg-primary text-white"
+            : "list-group-item mb-2"
+        }
+      >
+        <Link to="/settings">
+          <i class="bi bi-gear-fill"></i> <span>Settings</span>
         </Link>
       </li>
       <li className="list-group-item mb-2">
         <Link to="/login">
-          <i class="bi bi-box-arrow-right "></i> Logout
+          <i class="bi bi-box-arrow-right "></i> <span>Logout</span>
         </Link>
       </li>
     </ul>
