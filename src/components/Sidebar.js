@@ -37,7 +37,8 @@ const Sidebar = () => {
         }
       >
         <Link to="/settings">
-          <i class="bi bi-gear-fill"></i> <span>Settings</span>
+          <i class="bi bi-gear-fill"></i>
+          <span>Settings</span>
         </Link>
       </li>
       <li className="list-group-item mb-2">
