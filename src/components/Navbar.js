@@ -3,9 +3,8 @@ import avatar from "../assets/avatar.png";
 const Navbar = () => {
   return (
     <nav class="navbar navbar-light bg-light shadow">
-      <div class="container-fluid">
-        <a class="navbar-brand">Navbar</a>
-        <div class="d-flex gap-3">
+      <div class="container-fluid d-flex justify-content-end">
+        <div class="d-flex  gap-3">
           <div className="input-group">
             <input
               class="form-control"

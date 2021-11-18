@@ -6,10 +6,10 @@ const Profile = () => {
     <Layout page="Profile" icon="house-door-fill" path="/profile">
       <>
         <div className="row">
-          <div className="col-3">
+          <div className="col-md-3 d-flex justify-content-center">
             <img src={avatar} alt="avatar" className="avatar-lg mt-3" />
           </div>
-          <div className="col-9">
+          <div className="col-md-9">
             <h4>Collaborator Console</h4>
             <form action="">
               <div className="form-group mb-2">
